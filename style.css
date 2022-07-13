@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.swal-overlay {
+    background-color: rgb(243, 242, 235);
+}
+
+.swal-modal {
+    border-style: solid;
+    border-color: black;
+}
+
+.swal-button {
+    background-color: black;
+    position: relative;
+    right: 114px;
+}
+
+.swal-button button:hover {
+    background-color: rgb(216, 215, 203);
+}
+
+.swal-title {
+    font-family: 'Secular One', sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.swal-content__input {
+    text-align: center;
+}
