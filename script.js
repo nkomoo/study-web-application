@@ -1,6 +1,7 @@
 function introduction() {
     swal({
         title: "What is your name?",
+        closeOnClickOutside: false,
         content: {
             element: "input",
             attributes: {
@@ -10,9 +11,13 @@ function introduction() {
         },
         buttons: {
             Submit: "Submit",
-            Guest: "Guest"
-        }
+            Guest: "Guest",
+        },
 
+
+    }).then(function () {
+        window.location = "homepage/home.html";
     })
+
 }
 
