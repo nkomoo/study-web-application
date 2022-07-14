@@ -11,7 +11,6 @@ function introduction() {
         },
         buttons: {
             Submit: "Submit",
-            Guest: "Guest",
         },
 
 
@@ -20,4 +19,6 @@ function introduction() {
     })
 
 }
+
+
 

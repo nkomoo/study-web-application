@@ -1,0 +1,94 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 700px;
+}
+
+.wrapper>div {
+    background-color: rgb(252, 252, 252);
+    height: 40px;
+    width: 700px;
+    border-radius: .7em;
+}
+
+.logo {
+    font-size: 17px;
+    margin-left: .5em;
+    font-family: 'Secular One', sans-serif;
+}
+
+span {
+    margin-left: .3em;
+    position: absolute;
+    top: 18.5px;
+}
+
+.inviteBtn {
+    float: right;
+    width: 50px;
+    margin-right: .4em;
+    background-color: rgb(65, 105, 225);
+    color: white;
+    border: none;
+    border-radius: .3em;
+    padding: .4em;
+    position: relative;
+    top: -2px;
+}
+
+.icons {
+    width: 25px;
+    height: 35px;
+}
+
+.icon-volume {
+    width: 25px;
+    height: 35px;
+    margin-left: 5px;
+}
+
+.icon-off {
+    width: 25px;
+    height: 35px;
+    display: none;
+}
+
+.icon-save {
+    width: 25px;
+    height: 35px;
+    margin-left: 35px;
+}
+
+.icon-expand {
+    margin-left: 45px;
+    width: 22px;
+    height: 30px;
+}
+
+.profileIcon {
+    float: right;
+    margin-right: 30px;
+
+}
+
+.data {
+    align-self: baseline;
+}
+
+
+body {
+    background-color: black;
+}
+
+/* Second container */
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container>div {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+}
