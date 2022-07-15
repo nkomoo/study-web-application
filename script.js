@@ -13,12 +13,12 @@ function introduction() {
             Submit: "Submit",
         },
 
-
     }).then(function () {
         window.location = "homepage/home.html";
     })
 
 }
+
 
 
 

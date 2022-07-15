@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 .swal-overlay {
-    background-color: rgb(243, 242, 235);
+    background-color: rgb(255, 255, 255);
 }
 
 .swal-modal {
     border-style: solid;
     border-color: black;
+    background-color: rgb(242, 242, 230);
 }
 
 .swal-button {

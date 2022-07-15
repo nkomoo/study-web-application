@@ -34,7 +34,7 @@ span {
     border-radius: .3em;
     padding: .4em;
     position: relative;
-    top: -2px;
+    top: -34px;
 }
 
 .icons {
@@ -81,14 +81,73 @@ body {
     background-color: black;
 }
 
+.name {
+    position: absolute;
+    top: 5px;
+    left: 87px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 14px;
+}
+
 /* Second container */
 .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    gap: 900px;
+    margin-top: 20px;
 }
 
 .container>div {
     background-color: orange;
-    width: 50px;
-    height: 50px;
+    width: 371px;
+    height: 530px;
+    background-color: rgb(252, 252, 252);
+    border-radius: .7em;
+}
+
+.container>.tools {
+    height: 300px !important;
+    width: 90px !important;
+}
+
+.tools>p {
+    text-transform: uppercase;
+    margin-left: 7.3px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: thin;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.explore>h3 {
+    margin-left: 5px;
+    margin-bottom: 0px !important;
+    font-family: 'Secular One', sans-serif;
+}
+
+.explore>p {
+    margin-left: 5px;
+    color: rgb(138, 138, 138);
+    font-size: 13px;
+    margin-top: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+.tech {
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    padding: 15px;
+    margin-left: 5px;
+
+}
+
+.gif-image {
+    background-image: url("https: //im2.ezgif.com/tmp/ezgif-2-9e273724e3.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
