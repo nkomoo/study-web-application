@@ -12,14 +12,15 @@ function myFunction() {
 
 
 // Fullscreen
-const x = document.documentElement;
+// const x = document.documentElement;
 
-function fullScreen() {
-    if (x.requestFullscreen) {
-        x.requestFullscreen();
-    } else if (x.webkitRequestFullscreen) {
-        x.webkitRequestFullscreen();
-    } else if (x.msRequestFullscreen) {
-        x.msRequestFullscreen();
-    }
-}
+// function fullScreen() {
+//     if (x.requestFullscreen) {
+//         x.requestFullscreen();
+//     } else if (x.mozRequestFullScreen) { /* Firefox */
+//         x.mozRequestFullScreen();
+//     } else if (x.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+//         x.webkitRequestFullscreen();
+//     } else if (x.msRequestFullscreen) { /* IE/Edge */
+//         x.msRequestFullscreen();
+//     }
