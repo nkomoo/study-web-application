@@ -11,11 +11,15 @@ function myFunction() {
 
 
 
-// TO DO List 
+// Fullscreen
+const x = document.documentElement;
 
-
-function myTodo() {
-
-
+function fullScreen() {
+    if (x.requestFullscreen) {
+        x.requestFullscreen();
+    } else if (x.webkitRequestFullscreen) {
+        x.webkitRequestFullscreen();
+    } else if (x.msRequestFullscreen) {
+        x.msRequestFullscreen();
+    }
 }
-

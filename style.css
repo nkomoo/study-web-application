@@ -28,4 +28,6 @@
 
 .swal-content__input {
     text-align: center;
+    border-style: solid;
+    border-color: black;
 }
