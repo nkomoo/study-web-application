@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet1.css">
-    <title>HOME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HOME | DO'ER</title>
+    <link href="stylesheet1.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="data">
-            <h1 class="logo">DO'ER<span>|</span>
-                <h3 class="name">My name is</h3>
-                </h3><a href="#"><button class="inviteBtn">Invite</a></button>
-            </h1>
+    <div class="container">
+        <div>
+            <h1 class="logo">DO'ER<span>|</span></h1>
+            <h3 class="name">My name is</h3>
+            <a href="#"><button class="inviteBtn">Invite</a></button>
         </div>
-        <div class="options">
+        <div>
             <img src="https://api.iconify.design/mdi:volume-high.svg?color=%23000000" class="icon-volume" />
             <img src="https://api.iconify.design/ic:baseline-volume-off.svg?color=%23000000" class="icon-off" />
             <a href="" onclick="sharePopup()"><img
@@ -28,16 +26,14 @@
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span><a href="#"><img
                     src="https://api.iconify.design/ion:ios-person-add.svg?color=%23000000" class="profileIcon" /></a>
         </div>
-    </div>
-    <div class="container">
-        <div class="explore">
+        <div>
             <h3>Shuffle backgrounds</h3>
             <p>Click an emoji multiple times for more content</p>
             <a href="#" onclick="myFunction()" class="bgChange"><img
                     src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/325/laptop_1f4bb.png"
                     class="tech" /></a>
         </div>
-        <div class="tools">
+        <div>
             <p>Tools</p>
             <a href="#" onclick="myTodo()"><img
                     src="https://api.iconify.design/ri:calendar-todo-fill.svg?color=%23000000" /></a>
@@ -48,9 +44,8 @@
             <p>CHAT</p>
         </div>
     </div>
-
     <script src="app.js"></script>
-    <script src="login.js"></script>
+
 </body>
 
 </html>

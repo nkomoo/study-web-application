@@ -1,16 +1,57 @@
-.wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 700px;
+html,
+body {
+    width: auto !important;
+    overflow-x: hidden !important
 }
 
-.wrapper>div {
-    background-color: rgb(252, 252, 252);
-    height: 40px;
-    width: 700px;
+body {
+    background: black;
+}
+
+.container {
+    display: grid;
+    grid-column-gap: 5rem;
+    grid-row-gap: 42px;
+    grid-template-columns: 50% 50%;
+}
+
+.container div:nth-child(1) {
+    background: white;
+    width: 360px;
+    border-radius: .7em;
+    height: 50px;
+
+}
+
+div:nth-of-type(2) {
+    background: white;
+    width: 550px;
+    border-radius: .7em;
+    height: 50px;
+}
+
+div:nth-of-type(3) {
+    background: white;
+    height: 490px;
+    width: 380px;
     border-radius: .7em;
 }
+
+div:nth-of-type(4) {
+    background: white;
+    height: 240px;
+    position: absolute;
+    top: 110px;
+    right: 0;
+    width: 70px;
+    border-radius: .7em;
+}
+
+/* .container div {
+  width: 100%;
+  height: 70px;
+}
+ */
 
 .logo {
     font-size: 17px;
@@ -18,18 +59,20 @@
     font-family: 'Secular One', sans-serif;
 }
 
-span {
-    margin-left: .3em;
+.name {
     position: absolute;
-    top: 18.5px;
+    top: 8px;
+    left: 87px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
 }
 
 .inviteBtn {
     float: right;
-    width: 50px;
-    margin-right: .4em;
+    width: 60px;
+    margin-right: .7em;
     background-color: rgb(65, 105, 225);
-    color: white;
     border: none;
     border-radius: .3em;
     padding: .4em;
@@ -37,12 +80,27 @@ span {
     top: -34px;
 }
 
+.inviteBtn a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* span {
+    margin-left: .3em;
+    position: absolute;
+    top: 18.5px;
+    display: inline;
+} */
+
 .icons {
     width: 25px;
     height: 35px;
 }
 
 .icon-volume {
+    margin-top: 0.3em;
     width: 25px;
     height: 35px;
     margin-left: 5px;
@@ -68,70 +126,10 @@ span {
 
 .profileIcon {
     float: right;
+    margin-top: .4em;
     margin-right: 30px;
-
-}
-
-.data {
-    align-self: baseline;
-}
-
-
-body {
-    background-color: black;
-}
-
-.name {
-    position: absolute;
-    top: 5px;
-    left: 87px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 100;
-}
-
-/* Second container */
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 900px;
-    margin-top: 20px;
-}
-
-.container>div {
-    background-color: orange;
-    width: 371px;
-    height: 530px;
-    background-color: rgb(252, 252, 252);
-    border-radius: .7em;
-}
-
-.container>.tools {
-    height: 300px !important;
-    width: 90px !important;
-}
-
-.tools>p {
-    text-transform: uppercase;
-    margin-left: 7.3px;
-    font-family: 'Secular One', sans-serif;
-    font-weight: thin;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.explore>h3 {
-    margin-left: 5px;
-    margin-bottom: 0px !important;
-    font-family: 'Secular One', sans-serif;
-}
-
-.explore>p {
-    margin-left: 5px;
-    color: rgb(138, 138, 138);
-    font-size: 13px;
-    margin-top: 0;
-    font-family: 'Secular One', sans-serif;
+    height: 30px;
+    width: 30px;
 }
 
 .tech {
@@ -143,36 +141,58 @@ body {
     border-width: thin;
     padding: 15px;
     margin-left: 5px;
-
 }
 
-.gif-image {
-    background-image: url("https: //im2.ezgif.com/tmp/ezgif-2-9e273724e3.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+div:nth-of-type(3) h3 {
+    margin-left: 5px;
+    margin-bottom: 0px !important;
+    font-family: 'Secular One', sans-serif;
 }
 
-.tools img {
+div:nth-of-type(3) p {
+    margin-left: 5px;
+    color: rgb(138, 138, 138);
+    font-size: 13px;
+    margin-top: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+div:nth-of-type(4) img {
     margin-left: 17px;
+    width: 30px;
+    height: 30px;
 }
 
-.tools p {
+div:nth-of-type(4) p {
     text-align: center;
     font-size: 10px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 5px;
-    padding: 0;
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
 }
 
-.tools img[src="/images/todo.svg"] {
+p:nth-child(3),
+p:nth-child(4),
+p:nth-child(5) {
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+}
+
+div:nth-of-type(4) img[src="/images/todo.svg"] {
     margin-top: 5px;
 }
 
-.data a {
-    text-decoration: none;
-    color: white;
+span:nth-of-type(1) {
+    margin-left: 0.3em;
+    position: absolute;
+    top: 18.5px;
+    display: inline;
+    font-weight: normal;
+}
+
+div:nth-of-type(4)>p:nth-of-type(1) {
     text-transform: uppercase;
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 13px;
+    text-decoration: underline;
 }
